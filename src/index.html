@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Doctor Lookup</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <h2>Welcome to Doctor Search!</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 offset-3">
+            <form id="issueForm">
+              <div class="form-group">
+                <h3>Please enter whatever medical issue you are currently dealing with</h3>
+                <label id="userInputText" for="formGroupUserInput"></label>
+                <input type="text" class="item form-control" id="userIssueInput" placeholder="What health issue are you facing?"/>
+                <button class="btn btn-dark btn-lg btn-block" type="click" id="userIssueButton">Add</button>
+              </div>
+            </form>
+          </div>
+        </div>
+            <div class="row">
+              <div class="col-6 offset-3">
+                <div class="hidden" id="results">
+                  <ul>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 offset-3">
+              <form id="DoctorByNameForm">
+                <div class="form-group">
+                  <h3>Search for a doctor by name!</h3>
+                  <label id="userDoctorNameText" for="formGroupUserInput"></label>
+                  <input type="text"class="item form-control"id="userDoctorNameInput"placeholder="Search for a doctor by name"/>
+                  <button class="btn btn-dark btn-lg btn-block" type="click" id="doctorByNameButton">Add</button>
+                </div>
+              </form>
+          </div>
+          <div class="row">
+            <div class="col-6 offset-3">
+              <div class="hidden" id="nameResults">
+                <ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
